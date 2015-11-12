@@ -433,7 +433,7 @@ C:\Users\denise\Desktop\workspace\COMSC1033_HW9>
 ##Summary
 
 Like I said before, the hardest part about this assignment and about most of the ones I've had trouble with in the past 
-is actually picturing how to do the things I'm supposed to actually do. After this assignment I feel comfortable with using
+is picturing how to do the things I'm supposed to actually do. After this assignment I feel comfortable with using
 Git, creating and switching between branches, and merging work done on different branches to my upstream branch. Or at least 
 it makes more sense to me after doing this assignment. I also am slowly but surely gaining a better understanding of methods 
 and loops as well.  
