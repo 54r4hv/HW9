@@ -2,7 +2,7 @@
 
 ##Intro
 
-###Rewrote Addition Game program from homework 6 using method calls and loops. 
+Rewrote Addition Game program from homework 6 using method calls and loops. 
 
 ##Outline
 
@@ -22,12 +22,13 @@
 
 ##References
 
-### <li>Liang, Y. (2014). Introduction to Java programming: Comprehensive version (Tenth ed.).</li>
+<li>Liang, Y. (2014). Introduction to Java programming: Comprehensive version (Tenth ed.).</li>
 
 
 ##Code
 
 ''' java
+
 import java.util.Scanner;
 
 public class AdditionGame_Rewrite {
