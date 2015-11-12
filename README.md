@@ -98,7 +98,7 @@ public class AdditionGame_Rewrite {
 	}
 }
 
-'''
+```
 
 ##Console Output
 
