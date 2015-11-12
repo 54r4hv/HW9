@@ -27,8 +27,7 @@ Rewrote Addition Game program from homework 6 using method calls and loops.
 
 ##Code
 
-''' java
-
+'''
 import java.util.Scanner;
 
 public class AdditionGame_Rewrite {
