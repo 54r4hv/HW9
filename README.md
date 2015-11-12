@@ -104,12 +104,13 @@ public class AdditionGame_Rewrite {
 
 
 ```
-Round 1 of 3. Add 3 and 4: 7
+Round 1 of 3. Add 2 and 2: 4
 Correct. Your score was 0 and is now 5. Your hardness was 5 and is now 10.
-Round 2 of 3. Add 6 and 7: 13
+Round 2 of 3. Add 6 and 8: 14
 Correct. Your score was 5 and is now 15. Your hardness was 10 and is now 20.
-Round 3 of 3. Add 18 and 6: 24
-Correct. Your score was 15 and is now 35.
+Round 3 of 3. Add 5 and 13: 18
+Correct. Your score was 15 and is now 35. 
+The game is complete. Your final score was 35
 --------------------------------------------
 Round 1 of 3. Add 3 and 3: 7
 Nice try, but the correct answer was 6.
@@ -129,6 +130,304 @@ The game is complete. Your final score was 0
 
 ```
 
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Everything up-to-date
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m "."
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git merge
+Already up-to-date.
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git checkout dev
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git merge master
+Already up-to-date.
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m ".."
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+nothing to commit, working directory clean
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git merge master
+Already up-to-date.
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git merge dev
+Updating 150507e..d801417
+Fast-forward
+ .classpath                     |   6 ++++
+ .project                       |  17 ++++++++++
+ README.md                      |   3 ++
+ bin/AdditionGame_Rewrite.class | Bin 0 -> 2340 bytes
+ src/AdditionGame_Rewrite.java  |  70 +++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 96 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 bin/AdditionGame_Rewrite.class
+ create mode 100644 src/AdditionGame_Rewrite.java
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m "..."
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/54r4hv/HW9.git
+   150507e..d801417  master -> master
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git branch
+  dev
+* master
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m "almost done"
+[master 99df952] almost done
+ 1 file changed, 141 insertions(+), 4 deletions(-)
+ rewrite README.md (87%)
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.68 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/54r4hv/HW9.git
+   d801417..99df952  master -> master
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m "more changes"
+[master b0e5d46] more changes
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 311 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/54r4hv/HW9.git
+   99df952..b0e5d46  master -> master
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m "some more changes"
+[master 58ad1c6] some more changes
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 305 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/54r4hv/HW9.git
+   b0e5d46..58ad1c6  master -> master
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m ","
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m "bleh"
+[master c17d690] bleh
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/54r4hv/HW9.git
+   58ad1c6..c17d690  master -> master
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git add .
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git commit -m "a"
+[master 636bc9d] a
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 300 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/54r4hv/HW9.git
+   c17d690..636bc9d  master -> master
+
+C:\Users\denise\Desktop\workspace\COMSC1033_HW9>
 ```
 
 ##Summary
