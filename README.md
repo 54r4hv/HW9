@@ -27,12 +27,11 @@ Rewrote Addition Game program from homework 6 using method calls and loops.
 
 ##Code
 
-'''
+```
 import java.util.Scanner;
 
 public class AdditionGame_Rewrite {
 	public static void main(String[] args) {
-		//System.out.println("Hello class.");
 		
 		//Call the addition game method.
 		AdditonGameMethod();
